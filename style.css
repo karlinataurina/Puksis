@@ -3,14 +3,14 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #c9fc86;
+        background-color: #3cbe22be;
       }
       
-      li {
+    li {
         float: left;
       }
       
-      li a {
+    li a {
         display: block;
         color: rgb(0, 0, 0);
         text-align: center;
@@ -18,8 +18,14 @@
         text-decoration: none;
       }
 
-      li a:hover {
-        background-color: #3cbe22be;
+    li a:hover {
+        background-color: #c9fc86;
       }
 
+    .active {
+        background-color: #c9fc86;
+      }
       
+    a:hover {
+    color: rgb(0, 0, 0);
+    }
