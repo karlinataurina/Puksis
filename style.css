@@ -29,3 +29,19 @@
     a:hover {
     color: rgb(0, 0, 0);
     }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .imgbox {
+        display: grid;
+        height: 100%;
+    }
+    .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+        width: 500px;
+        height: 680.47px;
+    }
