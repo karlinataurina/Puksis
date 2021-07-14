@@ -72,10 +72,3 @@ body {
         background: #3cbe22be;
         color: rgb(0, 0, 0);
       }
-
-      .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px; 
-      }
