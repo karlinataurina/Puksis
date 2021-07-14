@@ -1,3 +1,8 @@
+body {
+    background-color: rgba(236, 233, 228, 0.212);
+    font-family: 'Georgia', monospace;
+  }
+    
     ul {
         list-style-type: none;
         margin: 0;
