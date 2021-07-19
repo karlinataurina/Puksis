@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(139, 252, 95, 0.212);
+    background: linear-gradient(to right,white, #794d2fbe);
     font-family: 'Indie Flower', monospace;
   }
     
@@ -8,7 +8,7 @@ body {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #3cbe22be;
+        background-color: #794d2fbe;
       }
       
     li {
@@ -24,11 +24,11 @@ body {
       }
 
     li a:hover {
-        background-color: #c9fc86;
+        background-color: #e0c9c9;
       }
 
     .active {
-        background-color: #c9fc86;
+        background-color: #e0c9c9;
       }
       
     a:hover {
@@ -69,11 +69,11 @@ body {
       }
       
       .fa:hover {
-          background-color: #c9fc86;
+          background-color: #e0c9c9;
       }
       
       .fa-instagram {
-        background: #3cbe22be;
+        background: #794d2fbe;
         color: rgb(0, 0, 0);
       }
       .forma {
