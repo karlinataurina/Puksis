@@ -58,6 +58,12 @@ body {
         text-align: center;
     }
 
+    .count {
+        text-align: center;
+        font-family: 'Indie Flower', monospace;
+        font-size: 50px;
+    }
+
     .fa {
         padding: 20px;
         font-size: 30px;
