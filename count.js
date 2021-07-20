@@ -1,5 +1,5 @@
 // iestatām datumu, līdz kuram skaitīt
-var countDownDate = new Date("July 20, 2021 18:15:00").getTime();
+var countDownDate = new Date("July 20, 2021 18:30:00").getTime();
 
 // lai apdeido laiku ik pēc sekundes
 var x = setInterval(function() {
@@ -25,5 +25,8 @@ if (distance < 0)
 {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "Happy birthday!!!";
+    document.getElementById("hide").style.display = "none";
+    var pic = document.getElementById("Puksis");
+    pic.src = "images/webPuksis.jpg";
 }
 }, 1000);
