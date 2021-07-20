@@ -1,5 +1,5 @@
 // iestatām datumu, līdz kuram skaitīt
-var countDownDate = new Date("July 20, 2021 18:30:00").getTime();
+var countDownDate = new Date("July 20, 2021 18:35:00").getTime();
 
 // lai apdeido laiku ik pēc sekundes
 var x = setInterval(function() {
