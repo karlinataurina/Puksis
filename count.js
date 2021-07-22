@@ -47,17 +47,20 @@ const addVisitor = async () => {
         const data = await response.json();
         // enter your logic when the fetch is successful
         console.log(data);
+
+        //noslēpj formu
+        document.getElementById("frm1").style.display = "none";
+        // Apstiprina lietotājam, ka dati saņemti
+        var x = document.createElement("P");
+        var t = document.createTextNode("Awesome! Don't forget the gifts!");
+        x.appendChild(t);
+        document.body.appendChild(x);
     } catch (error) {
         // enter your logic for when there is an error (ex. error toast)
-
         console.log(error)
+        var x = document.createElement("P");
+        var t = document.createTextNode("Oops! Form submit failed! Please try again.");
+        x.appendChild(t);
+        document.body.appendChild(x);
     }
-
-    //noslēpj formu
-    document.getElementById("frm1").style.display = "none";
-    // Apstiprina lietotājam, ka dati saņemti
-    var x = document.createElement("P");
-    var t = document.createTextNode("Awesome! Don't forget the gifts!");
-    x.appendChild(t);
-    document.body.appendChild(x);
 }
