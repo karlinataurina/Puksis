@@ -62,4 +62,5 @@ def delete_visitor(id):
 
 
 if __name__ == '__main__':
-    app.run(host="130.61.147.255", port=5000)
+    # https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+    app.run(host="130.61.147.255", port=5000, ssl_context=('cert.pem', 'key.pem'))
