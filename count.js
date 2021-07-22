@@ -31,6 +31,26 @@ if (distance < 0)
 }
 }, 1000);
 
-function addVisitor() {
-    document.getElementById("frm1").submit();
-  }
+
+
+// pievienojam dzimšanas dienas viesus datubāzē
+// avots: https://stackoverflow.com/a/67558064
+const addVisitor = async () => {
+    var name = document.getElementById("fname").value
+    console.log(name)
+    var last_name = document.getElementById("lname").value
+    var age = document.getElementById("age").value
+
+    try {
+        const response = await fetch('http://130.61.147.255:5000/create_visitor/' + name + '/' + last_name + '/' + age, {
+         method: 'POST',
+         });
+         const data = await response.json();
+      // enter your logic when the fetch is successful
+         console.log(data);
+       } catch(error) {
+     // enter your logic for when there is an error (ex. error toast)
+
+          console.log(error)
+         } 
+    }
