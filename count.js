@@ -59,7 +59,7 @@ const addVisitor = async () => {
         // enter your logic for when there is an error (ex. error toast)
         console.log(error)
         var x = document.createElement("P");
-        var t = document.createTextNode("Oops! Form submit failed! Please try again.");
+        var t = document.createTextNode("Oops! Form submit failed, please try again!");
         x.appendChild(t);
         document.body.appendChild(x);
     }
