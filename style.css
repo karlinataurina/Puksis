@@ -55,13 +55,12 @@ body {
     }
 
     .About {
-        text-align:justify;
-        margin-inline: 500px;
+        text-align:center;
+        
     }
 
     .mess {
-        text-align:justify;
-        margin-inline: 500px 
+        text-align:center; 
     }
 
     .count {
