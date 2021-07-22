@@ -53,5 +53,11 @@ const addVisitor = async () => {
         console.log(error)
     }
 
+    //noslēpj formu
     document.getElementById("frm1").style.display = "none";
+    // Apstiprina lietotājam, ka dati saņemti
+    var x = document.createElement("P");
+    var t = document.createTextNode("Awesome! Don't forget the gifts!");
+    x.appendChild(t);
+    document.body.appendChild(x);
 }
