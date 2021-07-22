@@ -30,3 +30,7 @@ if (distance < 0)
     pic.src = "images/webPuksis.jpg";
 }
 }, 1000);
+
+function myFunction() {
+    document.getElementById("frm1").submit();
+  }

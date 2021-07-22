@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="style.css"></head>
-    <body>
-        <nav>
-            <ul id="mainMenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="pictures.html">Pictures</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                <li><a class="active" href="count.html">Party?</a></li>
-            </ul>
-        </nav>
-        <div class="count"><h2 id="hide">Grilled birthday turkey in</h2>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="mainMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pictures.html">Pictures</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a class="active" href="count.html">Party?</a></li>
+        </ul>
+    </nav>
+    <div class="count">
+        <h2 id="hide">Grilled birthday turkey in</h2>
         <p id="demo"></p>
         <script src="count.js"></script>
-        <img id="Puksis" src="images/Puksis.webp" /></div>
-    </body>
+        <img id="Puksis" src="images/Puksis.webp" />
+    </div>
+    <p>Lūdzu, pieteikt ierašanos uz ballīti līdz 20.06.2022.</p>
+
+    <form id="frm1" action="/action_page.php">
+        Vārds: <input type="text" name="fname"><br>
+        Uzvārds: <input type="text" name="lname"><br>
+        Vecums: <input type="number" name="age" min="0" max="100"><br><br>
+        <input type="button" onclick="myFunction()" value="Pieteikties">
+    </form>
+</body>
+
 </html>
