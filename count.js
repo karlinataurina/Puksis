@@ -31,6 +31,6 @@ if (distance < 0)
 }
 }, 1000);
 
-function myFunction() {
+function addVisitor() {
     document.getElementById("frm1").submit();
   }
