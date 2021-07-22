@@ -21,13 +21,15 @@
         <script src="count.js"></script>
         <img id="Puksis" src="images/Puksis.webp" />
     </div>
-    <p><h3>Vēlies svinēt kopā ar mani?<br> Lūdzu pieteikt ierašanos uz ballīti līdz 20.04.2022.</h3></p>
+    <p>
+    <h3>Want to celebrate with me?<br> Please let me know before 20.04.2022. by filling out this form</h3>
+    </p>
 
     <form id="frm1" action="" onsubmit="addVisitor();return false">
-        <b>Vārds:</b> <input id="fname" type="text" name="fname" value=""><br>
-        <b>Uzvārds:</b> <input id="lname" type="text" name="lname" value=""><br>
-        <b>Vecums:</b> <input id="age" type="number" name="age" min="0" max="100" value=""><br><br>
-        <input type="submit" value="Svinam kopā!">
+        <b>Your name:</b> <input id="fname" type="text" name="fname" value="" required><br>
+        <b>Your last name:</b> <input id="lname" type="text" name="lname" value="" required><br>
+        <b>Your age:</b> <input id="age" type="number" name="age" min="0" max="100" value="" required><br><br>
+        <input type="submit" value="Let's party!">
     </form>
 </body>
 
