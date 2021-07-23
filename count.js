@@ -41,7 +41,7 @@ const addVisitor = async () => {
     var age = document.getElementById("age").value
 
     try {
-        const response = await fetch('https://130.61.147.255:5000/create_visitor/' + name + '/' + last_name + '/' + age, {
+        const response = await fetch('https://apex.oracle.com/pls/apex/karlinataurina/puksis/create_visitor?firstname=' + name + '&lastname=' + last_name + '&age=' + age, {
             method: 'POST',
         });
         const data = await response.json();
