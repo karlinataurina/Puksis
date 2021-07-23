@@ -44,7 +44,7 @@ const addVisitor = async () => {
         const response = await fetch('https://apex.oracle.com/pls/apex/karlinataurina/puksis/create_visitor?firstname=' + name + '&lastname=' + last_name + '&age=' + age, {
             method: 'POST',
         });
-        const data = await response.json();
+        const data = await response;
         console.log(data);
 
         //noslēpj formu
