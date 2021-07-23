@@ -45,7 +45,6 @@ const addVisitor = async () => {
             method: 'POST',
         });
         const data = await response.json();
-        // enter your logic when the fetch is successful
         console.log(data);
 
         //noslēpj formu
@@ -56,10 +55,9 @@ const addVisitor = async () => {
         x.appendChild(t);
         document.body.appendChild(x);
     } catch (error) {
-        // enter your logic for when there is an error (ex. error toast)
         console.log(error)
         var x = document.createElement("P");
-        var t = document.createTextNode("Oops! Form submit failed, please try again!");
+        var t = document.createTextNode("Form submit failed, please try again!");
         x.appendChild(t);
         document.body.appendChild(x);
     }
